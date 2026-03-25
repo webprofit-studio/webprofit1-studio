@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WebProfit Studio</title>
+
+<style>
+body {
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f5f5f5;
+    color:#111;
+    line-height:1.6;
+    text-align:center;
+}
+
+/* HEADER */
+header {
+    background:black;
+    color:white;
+    padding:40px 20px;
+}
+header h1 {
+    color:#00ff88;
+    margin-bottom:10px;
+}
+header p {
+    font-size:18px;
+    margin-bottom:10px;
+}
+.header-links a {
+    display:block;
+    font-size:20px;
+    color:#00ff88;
+    text-decoration:none;
+    margin:5px 0;
+}
+
+/* BIENVENUE - correction pour toujours visible */
+.webprofit-welcome {
+    background:#00ff88;
+    color:#111;
+    border-radius:12px;
+    margin:20px auto;
+    max-width:800px;
+    padding:40px 25px;
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+    box-shadow:0 4px 12px rgba(0,0,0,0.2);
+    position:relative;
+    z-index:10;
+}
+
+/* HERO */
+.hero {
+    background:#111;
+    color:white;
+    padding:60px 20px;
+}
+.hero h2 { font-size:32px; margin-bottom:15px; }
+.hero p { font-size:18px; }
+.btn {
+    display:inline-block;
+    margin-top:20px;
+    padding:14px 28px;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow:0 6px 12px rgba(0,0,0,0.2);
+}
+
+/* SECTION */
+.section {
+    padding:50px 20px;
+    max-width:1200px;
+    margin:auto;
+}
+
+/* PACKS */
+.packs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+    margin-top:30px;
+}
+.pack {
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.2);
+    width:300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.pack:hover {
+    transform: translateY(-5px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}
+.basic { border-top:5px solid green; }
+.pro { border-top:5px solid blue; }
+.premium { border-top:5px solid red; }
+.pack h3 { margin-bottom:15px; }
+.pack p { margin:8px 0; }
+
+/* FAQ PREMIUM */
+.premium-faq {
+    text-align:left;
+    margin-top:15px;
+    padding:10px;
+    background:#ffe6e6;
+    border-radius:8px;
+}
+
+/* URGENCE */
+.urgent {
+    background:red;
+    color:white;
+    padding:25px 20px;
+    font-weight:bold;
+    margin:40px 0;
+    border-radius:8px;
+}
+
+/* FOOTER */
+.footer {
+    background:black;
+    color:white;
+    text-align:center;
+    padding:30px 20px;
+}
+.footer a {
+    color:#00ff88;
+    text-decoration:none;
+}
+
+/* RESPONSIVE */
+@media (max-width:1000px) {
+    .packs-container { flex-direction: column; align-items: center; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>WEBPROFIT STUDIO 🚀</h1>
+  <p>Des sites qui attirent, convainquent et vendent</p>
+  <div class="header-links">
+    <a href="mailto:webprofitstudio@gmail.com">📧 webprofitstudio@gmail.com</a>
+    <a href="https://www.tiktok.com/@webprofit.studio?_r=1&_t=ZS-94zAz7Oi6EM" target="_blank">🎵 TikTok : @webprofit.studio</a>
+  </div>
+</header>
+
+<!-- BIENVENUE -->
+<div class="webprofit-welcome">
+  <h2>✨ Bienvenue chez WebProfit Studio !</h2>
+  <p>Nous créons des sites web modernes, performants et adaptés à ton business pour attirer, convaincre et vendre.</p>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+<h2>🔥 Attire + Convainc + Vends avec ton site</h2>
+<p>Ne perds plus de clients pendant que les autres gagnent de l’argent</p>
+<a href="https://wa.me/2250719949973?text=Bonjour%20je%20veux%20cr%C3%A9er%20un%20site%20web%20pour%20mon%20business.%20Pouvez-vous%20m’aider%20%3F" class="btn">
+🔥 Je veux mon site
+</a>
+</div>
+
+<!-- INTRO OFFRES -->
+<div class="section">
+<h2>💼 Nos Offres</h2>
+<p>Choisis une solution adaptée à ton business et commence à attirer des clients dès aujourd’hui 🚀</p>
+<p>Nos sites sont conçus pour être rapides, modernes et rentables.</p>
+</div>
+
+<!-- PACKS -->
+<div class="section packs-container">
+
+  <!-- PACK BASIQUE -->
+  <div class="pack basic">
+    <h3>🟢 PACK BASIQUE — 15 000 FCFA</h3>
+    <p>👉 Idéal pour démarrer</p>
+    <p>✔️ Site simple (1 page)</p>
+    <p>✔️ Design moderne</p>
+    <p>✔️ WhatsApp intégré</p>
+    <p>✔️ Livraison rapide</p>
+    <p>❌ Pas avancé</p>
+    <a href="https://wa.me/2250719949973?text=Bonjour%20je%20veux%20le%20PACK%20BASIQUE%20%C3%A0%2015%20000%20FCFA.%20Pouvez-vous%20me%20donner%20les%20d%C3%A9tails%20%3F" class="btn">Choisir ce pack</a>
+  </div>
+
+  <!-- PACK PRO -->
+  <div class="pack pro">
+    <h3>🔵 PACK PRO — 30 000 FCFA ⭐</h3>
+    <p>👉 Meilleur choix pour progresser</p>
+    <p>✔️ Site multi-pages (3 à 5 pages)</p>
+    <p>✔️ Design personnalisé</p>
+    <p>✔️ SEO de base</p>
+    <p>✔️ Optimisé pour la vente</p>
+    <p>✔️ Support basique inclus</p>
+    <a href="https://wa.me/2250719949973?text=Bonjour%20je%20suis%20int%C3%A9ress%C3%A9%20par%20le%20PACK%20PRO%20%C3%A0%2030%20000%20FCFA.%20Je%20veux%20attirer%20plus%20de%20clients.%20Quelles%20sont%20les%20%C3%A9tapes%20%3F" class="btn">🔥 Pack recommandé</a>
+  </div>
+
+  <!-- PACK PREMIUM -->
+  <div class="pack premium">
+    <h3>🔴 PACK PREMIUM — 120 000 FCFA</h3>
+    <p>👉 Pour dominer 💥</p>
+    <p>✔️ Tout PRO</p>
+    <p>✔️ Design premium et responsive</p>
+    <p>✔️ Conseils business personnalisés</p>
+    <p>✔️ Optimisation conversion maximale</p>
+    <p>✔️ Système inscription / panier / commande</p>
+    <p>✔️ WhatsApp & contact direct</p>
+    <a href="https://wa.me/2250719949973?text=Bonjour%20je%20veux%20le%20PACK%20PREMIUM%20%C3%A0%20120%20000%20FCFA.%20Je%20veux%20un%20site%20haut%20niveau%20qui%20g%C3%A9n%C3%A8re%20des%20clients.%20Pouvez-vous%20me%20accompagner%20%3F" class="btn">🚀 Je veux le meilleur</a>
+
+    <div class="premium-faq">
+      <h4>❓ FAQ PACK PREMIUM</h4>
+      <p><b>Q :</b> Mes clients peuvent acheter directement sur le site ?<br><b>R :</b> Oui, le site est prêt pour la vente avec panier et commandes.</p>
+      <p><b>Q :</b> Puis-je gérer mes produits moi-même ?<br><b>R :</b> Oui, un tableau de bord admin simple est inclus.</p>
+      <p><b>Q :</b> Le site est-il sécurisé ?<br><b>R :</b> Oui, connexion sécurisée et mot de passe crypté.</p>
+      <p><b>Q :</b> Puis-je recevoir des notifications sur WhatsApp ?<br><b>R :</b> Oui, notifications et contact direct intégrés.</p>
+      <p><b>Q :</b> Combien de temps pour la livraison ?<br><b>R :</b> Entre 3 et 7 jours selon la complexité.</p>
+    </div>
+  </div>
+
+</div>
+
+<!-- POURQUOI -->
+<div class="section">
+<h2>💥 Pourquoi choisir WebProfit Studio ?</h2>
+<p>✔️ Attire des clients</p>
+<p>✔️ Améliore ton image</p>
+<p>✔️ Augmente tes ventes</p>
+</div>
+
+<!-- CONFIANCE -->
+<div class="section">
+<h2>🔒 Confiance</h2>
+<p>✔️ +10 sites créés</p>
+<p>✔️ Clients satisfaits</p>
+<p>✔️ Livraison rapide</p>
+<p>✔️ Support disponible</p>
+</div>
+
+<!-- FAQ GÉNÉRALE -->
+<div class="section">
+<h2>❓ FAQ</h2>
+<p><b>Temps ?</b><br>24h à 72h selon le pack choisi</p>
+<p><b>Vente ?</b><br>Oui, possibilité de vente sur PACK PREMIUM</p>
+<p><b>Paiement ?</b><br>Non mensuel pour BASIQUE et PRO, PACK PREMIUM peut intégrer paiement Wave/OM</p>
+</div>
+
+<!-- URGENCE -->
+<div class="urgent">
+⚠️ Attention : Nous sélectionnons un nombre limité de clients chaque semaine pour garantir un travail de qualité supérieure → <b>Réserve ta place dès maintenant !</b>
+</div>
+
+<!-- CTA -->
+<div class="section">
+<h2>🚀 Prêt à lancer ton site ?</h2>
+<p>Ne laisse pas tes concurrents prendre ta place</p>
+<a href="https://wa.me/2250719949973?text=Bonjour%20je%20veux%20lancer%20mon%20site%20web%20rapidement.%20Pouvez-vous%20m’aider%20%3F" class="btn">🔥 Contacte maintenant</a>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+<p>📞 07 19 94 99 73</p>
+<p>📧 <a href="mailto:webprofitstudio@gmail.com">webprofitstudio@gmail.com</a></p>
+<p>📍 Abidjan</p>
+<p>🎵 TikTok : <a href="https://www.tiktok.com/@webprofit.studio?_r=1&_t=ZS-94zAz7Oi6EM" target="_blank">@webprofit.studio</a></p>
+</div>
+
+</body>
+</html>
